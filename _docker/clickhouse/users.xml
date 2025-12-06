@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<yandex>
+    <users>
+        <default>
+            <password></password>
+            <networks include_from="/etc/clickhouse-server/config.xml" default_network="127.0.0.1"/>
+            <profile>default</profile>
+            <quota>default</quota>
+        </default>
+    </users>
+</yandex>
